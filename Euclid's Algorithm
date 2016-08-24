@@ -1,0 +1,14 @@
+Euclid's Algorithm
+ to find GCD of two positive numbers.
+ consider two positive integers:
+   m, n such that m>n
+   
+   step 1. Divide m by n and r = remainder
+   step 2. if r=0
+            r = n ; //ends algorithm.
+           else
+             m = n;
+             n = r;
+             go back to step 1 (recursive) // untill r = 0.
+             
+          
